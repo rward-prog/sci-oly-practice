@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Murphy's Review Den - Science Olympiad practice</title>
+<meta name="description" content="Review games and practice for Science Olympiad Division B quiz events.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header id="top"></header>
+<main id="main">
+  <section class="hero">
+    <h1>Pick your event. Play. Get better.</h1>
+    <p class="lede">Quick review games for every Science Olympiad quiz event. Murphy tracks what you get right and tells you what to practice next.</p>
+  </section>
+
+  <section id="plan" class="plan" aria-live="polite"></section>
+
+  <section>
+    <div class="grid-head">
+      <h2>Events</h2>
+      <label class="filter"><input type="checkbox" id="only-mine"> Show only my events</label>
+    </div>
+    <div id="grid" class="grid"></div>
+  </section>
+
+  <section class="linksec">
+    <h2>Real practice tests</h2>
+    <p>Past tests from other tournaments are the best practice there is. Check each test's topics against this year's rules.</p>
+    <ul id="links" class="linklist"></ul>
+  </section>
+</main>
+<footer>
+  <p>Made for the Collegiate middle school Science Olympiad teams. No names or accounts are stored here. Your progress stays in your browser and in your save code.</p>
+</footer>
+<script src="data/events.js"></script>
+<script src="data/questions.js"></script>
+<script src="data/questions_bay.js"></script>
+<script src="data/meet.js"></script>
+<script src="js/store.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/games.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
